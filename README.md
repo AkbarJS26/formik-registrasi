@@ -41,15 +41,23 @@ Ini adalah website mengenai Form Registrasi yang dibuat menggunakan Vite React, 
 ## Fitur
 
 - Input pertama menjadi auto focus ketika halaman pertama kali dibuka.
+
   ![ref](https://user-images.githubusercontent.com/119624307/235335112-7adf3cd5-ae33-4db4-a442-3d82275ce167.gif)
+
 - Validasi input menggunakan Yup.
 - Menampilkan pesan error jika input tidak valid.
+
   ![validasi](https://user-images.githubusercontent.com/119624307/235335420-531ebbda-e2b8-4ba1-b81e-62b5e0f8ce4c.gif)
+
 - Jika user click icon mata, maka password akan terlihat, dan jika user click icon mata sekali lagi, maka password akan kembali tertutup.
+
   ![show hide](https://user-images.githubusercontent.com/119624307/235335237-e7855d00-fc63-4fe7-9b97-ff8731833f2b.gif)
+
 - Tombol register hanya aktif jika semua input sudah valid.
 - Jika semua input sudah terisi dengan benar, jika user click tombol register, maka tombol register berubah menjadi animasi spinner dan text loading..., setelah nunggu sekitar 1,5 detik, maka muncul pesan registrasi berhasil.
+
   ![success](https://user-images.githubusercontent.com/119624307/235335299-3a2fbee6-779d-48e9-a6da-0f2c206275b7.gif)
+
 - Desain tampilan menggunakan Tailwind CSS.
 
 ---
