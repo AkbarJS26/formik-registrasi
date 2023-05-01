@@ -48,7 +48,7 @@ const FormRegister = ({
           handleChange={formikHandleChange}
         />
         {formikTouchedUserName && formikErrorsUserName && (
-          <p className="text-red-500 mt-2 text-sm">{formikErrorsUserName}</p>
+          <p className="mt-2 text-sm text-red-500">{formikErrorsUserName}</p>
         )}
       </div>
       <div className="email mt-5">
@@ -62,10 +62,10 @@ const FormRegister = ({
           handleChange={formikHandleChange}
         />
         {formikTouchedEmail && formikErrorsEmail && (
-          <p className="text-red-500 mt-2 text-sm">{formikErrorsEmail}</p>
+          <p className="mt-2 text-sm text-red-500">{formikErrorsEmail}</p>
         )}
       </div>
-      <div className="password mt-5 relative">
+      <div className="password relative mt-5">
         <FormInput
           type={showPassword ? "text" : "password"}
           name="password"
@@ -76,7 +76,7 @@ const FormRegister = ({
           handleChange={formikHandleChange}
         />
         {formikTouchedPassword && formikErrorsPassword && (
-          <p className="text-red-500 mt-2 text-sm">{formikErrorsPassword}</p>
+          <p className="mt-2 text-sm text-red-500">{formikErrorsPassword}</p>
         )}
         {showPassword ? (
           <EyeFillSlash action={toggleShowPassword} />
@@ -84,7 +84,7 @@ const FormRegister = ({
           <EyeFill action={toggleShowPassword} />
         )}
       </div>
-      <div className="confirm mt-5 relative">
+      <div className="confirm relative mt-5">
         <FormInput
           type={showPasswordConfirm ? "text" : "password"}
           name="confirmPassword"
@@ -95,7 +95,7 @@ const FormRegister = ({
           handleChange={formikHandleChange}
         />
         {formikTouchedConfirmPassword && formikErrorsConfirmPassword && (
-          <p className="text-red-500 mt-2 text-sm">
+          <p className="mt-2 text-sm text-red-500">
             {formikErrorsConfirmPassword}
           </p>
         )}

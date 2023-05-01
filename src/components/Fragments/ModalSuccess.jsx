@@ -11,8 +11,8 @@ const ModalSuccess = () => {
         height={150}
         className="mx-auto"
       />
-      <h1 className="mt-10 text-center font-semibold text-4xl">Yeaayy!!</h1>
-      <p className="text-center mt-5">Selamat Registrasi Kamu Berhasil😊</p>
+      <h1 className="mt-10 text-center text-4xl font-semibold">Yeaayy!!</h1>
+      <p className="mt-5 text-center">Selamat Registrasi Kamu Berhasil😊</p>
     </>
   );
 };
